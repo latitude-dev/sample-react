@@ -1,6 +1,4 @@
-import { createLazyFileRoute } from '@tanstack/react-router'
-
-function Index() {
+export default function Index() {
   return (
     <div className='py-20 flex flex-col gap-y-4 max-w-[400px] mx-auto'>
       <p>
@@ -19,7 +17,3 @@ function Index() {
     </div>
   )
 }
-
-export const Route = createLazyFileRoute('/')({
-  component: Index,
-})

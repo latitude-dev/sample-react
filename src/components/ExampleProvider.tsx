@@ -1,3 +1,4 @@
+import * as React from 'react'
 import { createContext, useContext, ReactNode, FunctionComponent } from 'react'
 
 interface ExampleContextProps {
